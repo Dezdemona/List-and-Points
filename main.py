@@ -72,7 +72,7 @@ if __name__ == "__main__":  # for windows
                 if check:
                     print('Points for student', name, 'added.')
                 else:
-                    print('Student', name, 'does not exists.')
+                    print('Student', name, 'does not exist.')
         except (Exception, e):
             print('[ERROR]', e)
             print('HELP:')
